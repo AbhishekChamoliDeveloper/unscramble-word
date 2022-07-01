@@ -1,0 +1,42 @@
+{
+  "name": "unscramble_word",
+  "version": "1.0.6",
+  "description": "This is a word unscrambler, it can be used to unscramble any of the word out their. You just have to pass your word to the function and it will return you all the matching word.",
+  "keywords": [
+    "automatic word rearranger",
+    "word rearranger",
+    "jumble word rearranger",
+    "arrange jumble word",
+    "arrange jumble word automatically",
+    "word",
+    "rearranger",
+    "wordrearrange",
+    "unscramble word",
+    "word unscramble",
+    "word unscrambler"
+  ],
+  "main": "./dist/esm/unscrambleWord.js",
+  "types": "./dist/types/unscrambleWord.d.ts",
+  "type": "module",
+  "exports": {
+    "import": "./dist/esm/unscrambleWord.js",
+    "require": "./dist/cjs/unscrambleWord.js",
+    "default": "./dist/esm/unscrambleWord.js"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.esm.json & tsc --project tsconfig.cjs.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Abhishek Chamoli",
+    "url": "https://github.com/AbhishekChamoliDeveloper"
+  },
+  "bugs": {
+    "url": "https://github.com/AbhishekChamoliDeveloper/unscramble-word/issues"
+  },
+  "homepage": "https://github.com/AbhishekChamoliDeveloper/unscramble-word/#readme",
+  "license": "ISC",
+  "dependencies": {
+    "wordlist-english": "^1.2.1"
+  }
+}
